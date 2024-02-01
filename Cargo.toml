@@ -1,0 +1,20 @@
+[package]
+name = "mdict-rs"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+encoding_rs = "0.8.33"
+byteorder = "1.5.0"
+adler = "1.0.2"
+regex = "1.10.3"
+html-escape = "0.2.13"
+ripemd128 = "0.1.2"
+rust-salsa20 = "0.3.0"
+hex = "0.4.3"
+rust-lzo = "0.6.2"
+memchr = "2.7.1"
+xxhash-rust = { version = "0.8.8", features = ["xxh64", "const_xxh64"] }
+flate2 = { version = "1.0.17", features = ["zlib-ng"], default-features = false }
